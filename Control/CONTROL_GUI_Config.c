@@ -1,9 +1,10 @@
-
+#include "inifile.h"
+//#include "inifile.h"
+#include "inifile.h"
 #include <utility.h>
 #include "INCLUDES_CONTROL.h"    
 #include <userint.h>
 //#include <dataacq.h>	  
-#include "inifile.h" 
 
 #include "tools.h"
 #include "CONTROL_GUI_Main.h"

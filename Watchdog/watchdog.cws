@@ -1,6 +1,6 @@
 [Workspace Header]
 Version = 1500
-Pathname = "/c/Users/Manuel/Desktop/ExperimentControl/Watchdog/watchdog.cws"
+Pathname = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog.cws"
 CVI Dir = "/c/program files (x86)/national instruments/cvi2015"
 CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2015"
@@ -12,12 +12,11 @@ VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
 Project 0001 = "watchdog.prj"
-Project 0001 Collapsed = True
-Drag Bar Left = 443
-Window Top = 25
-Window Left = 215
-Window Bottom = 1302
-Window Right = 1471
+Drag Bar Left = 455
+Window Top = 45
+Window Left = 297
+Window Bottom = 547
+Window Right = 1087
 Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -31,9 +30,9 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 0
+Number of Opened Files = 8
 Window Confinement Region Enabled = True
-MainColumnWidth = 426
+MainColumnWidth = 438
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
@@ -47,52 +46,113 @@ Batch Build Release = False
 Batch Build Debug = False
 
 [File 0001]
-Path = "/c/Users/Manuel/Desktop/ExperimentControl/Control/tools.c"
-File Type = "CSource"
-Disk Date = 3555360626
+Path = "/c/program files (x86)/national instruments/cvi2015/toolslib/datasock/dataskt.fp"
+File Type = "Function Panel"
+Disk Date = 3517459200
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0002]
-Path = "/c/Users/Manuel/Desktop/ExperimentControl/Control/tools.h"
-File Type = "Include"
-Disk Date = 3555360626
+Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/UIR_watchdog.uir"
+File Type = "User Interface Resource"
+Disk Date = 3552438266
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 47
+Window Left = 13
+Window Height = 291
+Window Width = 828
+Window Z-Order = 8
 
 [File 0003]
-Path = "/c/Users/Manuel/Desktop/ExperimentControl/Watchdog/UIR_watchdog.h"
-File Type = "Include"
-Disk Date = 3555360626
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/tools.c"
+File Type = "CSource"
+Disk Date = 3552598209
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 2
+Source Window State = "1,816,816,816,12,25,25,0,0,80,0,0,0,0,0,25,698,0,820,18,531,1068,1,0,"
 
 [File 0004]
-Path = "/c/Users/Manuel/Desktop/ExperimentControl/Watchdog/UIR_watchdog.uir"
-File Type = "User Interface Resource"
-Disk Date = 3555360626
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/tools.h"
+File Type = "Include"
+Disk Date = 3552438266
 In Projects = "1,"
+Window Top = 137
+Window Left = 59
+Window Z-Order = 3
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,55,0,0,0,531,1068,1,0,"
 
 [File 0005]
-Path = "/c/Users/Manuel/Desktop/ExperimentControl/Watchdog/watchdog.c"
-File Type = "CSource"
-Disk Date = 3555360626
+Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/UIR_watchdog.h"
+File Type = "Include"
+Disk Date = 3552438266
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 272
+Window Left = 128
+Window Z-Order = 7
+Source Window State = "1,10,12,12,5,10,10,0,0,80,0,0,0,0,0,25,0,0,8,6,531,1068,1,0,"
 
 [File 0006]
-Path = "/c/Users/Manuel/Desktop/ExperimentControl/Watchdog/watchdog.h"
-File Type = "Include"
-Disk Date = 3555360626
+Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog.c"
+File Type = "CSource"
+Disk Date = 3552438266
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 92
+Window Left = 36
+Window Z-Order = 1
+Source Window State = "1,0,0,0,0,0,0,0,0,167,0,0,0,0,0,37,0,0,13,49,531,1068,1,0,"
 
 [File 0007]
-Path = "/c/Users/Manuel/Desktop/ExperimentControl/Watchdog/watchdog_variables.h"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog.h"
 File Type = "Include"
-Disk Date = 3555360626
+Disk Date = 3552438266
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 182
+Window Left = 82
+Window Z-Order = 5
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,531,1068,1,0,"
+
+[File 0008]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog_variables.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 227
+Window Left = 105
+Window Z-Order = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,24,29,531,1068,1,0,"
+
+[File 0009]
+Path = "/c/Program Files (x86)/National Instruments/CVI2015/toolslib/datasock/dataskt.h"
+File Type = "Include"
+Disk Date = 3517459200
+In Projects = ""
+Window Top = 92
+Window Left = 36
+Window Z-Order = 4
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,21,0,0,7,0,451,1068,1,0,"
+
+[File 0010]
+Path = "/c/Users/Manuel/Desktop/ExpControl/lib/CORE_RL_magick_.lib"
+File Type = "Library"
+Disk Date = 3552438269
+In Projects = "1,"
+
+[File 0011]
+Path = "/c/Users/Manuel/Desktop/ExpControl/lib/CORE_RL_wand_.lib"
+File Type = "Library"
+Disk Date = 3552438269
+In Projects = "1,"
+
+[Tab Order]
+Tab 0001 = "/c/Users/Manuel/Desktop/ExpControl/Control/tools.c"
+Tab 0002 = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog.c"
+Tab 0003 = "/c/Users/Manuel/Desktop/ExpControl/Control/tools.h"
+Tab 0004 = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog.h"
+Tab 0005 = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog_variables.h"
+Tab 0006 = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/UIR_watchdog.h"
+Tab 0007 = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/UIR_watchdog.uir"
+Tab 0008 = "/c/Program Files (x86)/National Instruments/CVI2015/toolslib/datasock/dataskt.h"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

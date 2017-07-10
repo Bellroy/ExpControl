@@ -12,13 +12,34 @@ VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 3
 Active Project = 1
 Project 0001 = "ExperimentControl.prj"
+Project 0001 Folder Include Files Collapsed = True
+Project 0001 FolderId 1 Collapsed = True
+Project 0001 Folder User Interface Files Collapsed = True
+Project 0001 FolderId 2 Collapsed = True
+Project 0001 Folder DAQ Tasks Collapsed = True
+Project 0001 FolderId 3 Collapsed = True
+Project 0001 Folder Image Magick Collapsed = True
+Project 0001 FolderId 4 Collapsed = True
+Project 0001 Folder Instrument Files Collapsed = True
+Project 0001 FolderId 5 Collapsed = True
 Project 0002 = "Watchdog/watchdog.prj"
+Project 0002 Folder Source Files Collapsed = True
+Project 0002 FolderId 0 Collapsed = True
+Project 0002 Folder Include Files Collapsed = True
+Project 0002 FolderId 1 Collapsed = True
 Project 0003 = "imageProcessing/imageProcessingTest.prj"
-Drag Bar Left = 496
-Window Top = 22
-Window Left = 297
-Window Bottom = 1300
-Window Right = 1553
+Project 0003 Collapsed = True
+Project 0003 Folder User Interface Files Collapsed = True
+Project 0003 FolderId 0 Collapsed = True
+Project 0003 Folder Source Files Collapsed = True
+Project 0003 FolderId 1 Collapsed = True
+Project 0003 Folder Include Files Collapsed = True
+Project 0003 FolderId 2 Collapsed = True
+Drag Bar Left = 504
+Window Top = 38
+Window Left = 2470
+Window Bottom = 540
+Window Right = 3260
 Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -32,9 +53,9 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 12
+Number of Opened Files = 56
 Window Confinement Region Enabled = True
-MainColumnWidth = 479
+MainColumnWidth = 487
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
@@ -42,7 +63,7 @@ FileSizeColumnWidth = 70
 Version = 1500
 Don't Update DistKit = False
 Platform Code = 4
-Build Configuration = "Debug"
+Build Configuration = "Release"
 Warn User If Debugging Release = 1
 Batch Build Release = False
 Batch Build Debug = False
@@ -66,800 +87,883 @@ Batch Build Release = False
 Batch Build Debug = False
 
 [File 0001]
-Path = "/c/Program Files (x86)/National Instruments/CVI2015/toolslib/datasock/dataskt.fp"
+Path = "/c/program files (x86)/national instruments/cvi2015/toolslib/datasock/dataskt.fp"
 File Type = "Function Panel"
 Disk Date = 3517459200
-In Projects = "1,"
+In Projects = "1,2,"
 
 [File 0002]
-Path = "/c/Program Files (x86)/National Instruments/CVI2015/toolslib/toolbox/inifile.fp"
+Path = "/c/program files (x86)/national instruments/cvi2015/toolslib/toolbox/inifile.fp"
 File Type = "Function Panel"
 Disk Date = 3517459200
 In Projects = "1,"
 
 [File 0003]
+Path = "/c/Users/Manuel/Desktop/ExpControl/NIUSB_AnalogInput.c"
+File Type = "CSource"
+Disk Date = 3553022784
+In Projects = "1,"
+Window Top = 45
+Window Z-Order = 56
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,9,0,32,53,531,1020,1,0,"
+
+[File 0004]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE.c"
 File Type = "CSource"
-Disk Date = 3556654841
+Disk Date = 3553301510
 In Projects = "1,"
 Window Top = 227
 Window Left = 105
-Window Z-Order = 6
-Source Window State = "1,568,568,568,22,58,58,0,0,80,0,6,0,0,0,25,2004,0,2020,20,531,1020,1,12,"
+Window Z-Order = 55
+Source Window State = "1,1875,1875,1875,3,62,62,0,0,76,0,6,0,0,0,25,0,0,23,97,531,1020,1,12,"
 
-[File 0004]
+[File 0005]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_ExperimentControl.uir"
 File Type = "User Interface Resource"
-Disk Date = 3556911988
+Disk Date = 3553446341
 In Projects = "1,"
 Window Top = 137
 Window Left = 59
 Window Height = 531
 Window Width = 1020
-Window Z-Order = 2
-
-[File 0005]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_adwin.c"
-File Type = "CSource"
-Disk Date = 3556743268
-In Projects = "1,"
-Window Top = 45
 Window Z-Order = 4
-Source Window State = "1,883,883,883,21,46,46,0,0,45,0,0,0,0,0,18,17,50,26,83,400,600,1,0,"
 
 [File 0006]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_DigitalBlocks.c"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_adwin.c"
 File Type = "CSource"
-Disk Date = 3556912700
+Disk Date = 3552438265
 In Projects = "1,"
-Window Top = 92
-Window Left = 36
-Window Z-Order = 1
-Source Window State = "1,1519,1519,1519,29,46,46,0,0,167,0,4459,0,0,0,32,1502,0,1517,29,531,1020,1,0,"
+Window Top = 45
+Window Z-Order = 54
+Source Window State = "1,883,883,883,21,46,46,0,0,41,0,0,0,0,0,18,0,0,26,83,400,600,1,0,"
 
 [File 0007]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_CalculateOutput.c"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_DigitalBlocks.c"
 File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 182
-Window Left = 82
-Window Z-Order = 10
-Source Window State = "1,1734,1734,1734,20,32,32,0,0,80,0,0,0,0,0,25,2269,0,2281,20,531,1020,1,0,"
-
-[File 0008]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DataStructure.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 47
-Window Left = 13
-Window Z-Order = 7
-Source Window State = "1,214,214,214,7,19,19,0,0,80,0,0,0,0,0,25,2667,25,2679,84,531,1020,1,0,"
-
-[File 0009]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DataStructure.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 182
-Window Left = 82
-Window Z-Order = 12
-Source Window State = "1,487,487,487,26,40,40,0,0,80,0,0,0,0,0,22,477,0,488,27,471,1020,1,0,"
-
-[File 0010]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/general.h"
-File Type = "Include"
-Disk Date = 3556215977
-In Projects = "1,"
-Window Top = 182
-Window Left = 82
-Window Z-Order = 11
-Source Window State = "1,9,9,9,8,13,13,0,0,80,0,0,0,0,0,25,0,0,14,41,531,1020,1,0,"
-
-[File 0011]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_MAIN.c"
-File Type = "CSource"
-Disk Date = 3556586421
+Disk Date = 3552438265
 In Projects = "1,"
 Window Top = 92
 Window Left = 36
 Window Z-Order = 8
-Source Window State = "1,936,936,936,26,45,45,0,3,80,0,441,0,0,0,25,924,0,936,26,531,1020,1,24,"
+Source Window State = "1,1519,1519,1519,29,46,46,0,0,76,0,4459,0,0,0,25,742,0,739,44,531,1020,1,0,"
 
-[File 0012]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_Adwin.h"
-File Type = "Include"
-Disk Date = 3556825020
-In Projects = "1,"
-Window Top = 137
-Window Left = 59
-Window Z-Order = 5
-Source Window State = "1,140,140,140,30,31,30,0,0,80,0,0,0,0,0,25,124,0,148,72,531,1020,1,0,"
-
-[File 0013]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_ExperimentControl.h"
-File Type = "Include"
-Disk Date = 3556743114
-In Projects = "1,"
-Window Top = 47
-Window Left = 13
-Window Z-Order = 3
-Source Window State = "1,635,635,635,9,28,28,0,3,80,0,0,0,0,0,25,623,0,635,9,531,1020,1,0,"
-
-[File 0014]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_DigitalBlocks~cvi151040.c"
+[File 0008]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_CalculateOutput.c"
 File Type = "CSource"
-Disk Date = 3555360625
-In Projects = ""
+Disk Date = 3552438265
+In Projects = "1,"
 Window Top = 182
 Window Left = 82
-Window Z-Order = 9
-Source Window State = "1,4310,4310,4310,30,43,43,0,0,80,0,0,0,0,0,20,37,0,47,12,431,1020,1,0,"
+Window Z-Order = 53
+Source Window State = "1,4,4,4,17,27,17,0,0,76,0,0,0,0,0,25,2698,0,2788,33,531,1020,1,0,"
 
-[File 0015]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/Adwin.c"
+[File 0009]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DataStructure.c"
 File Type = "CSource"
-Disk Date = 3556655690
+Disk Date = 3552438265
 In Projects = "1,"
 Window Top = 47
 Window Left = 13
-Source Window State = "1,410,410,410,6,13,13,0,3,0,0,0,0,0,0,0,398,0,410,6,531,1020,1,0,"
+Window Z-Order = 52
+Source Window State = "1,16,19,19,12,41,41,0,0,76,0,0,0,0,0,25,123,0,33,49,531,1020,1,0,"
 
-[File 0016]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DataSocket.c"
+[File 0010]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DataStructure.h"
+File Type = "Include"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 182
+Window Left = 82
+Window Z-Order = 51
+Source Window State = "1,363,365,363,27,26,27,0,0,76,0,0,0,0,0,22,324,0,366,26,471,1020,1,0,"
+
+[File 0011]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/general.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 182
+Window Left = 82
+Window Z-Order = 50
+Source Window State = "1,9,9,9,8,13,13,0,0,76,0,0,0,0,0,25,0,0,14,41,531,1020,1,0,"
+
+[File 0012]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_MAIN.c"
 File Type = "CSource"
-Disk Date = 3556599466
+Disk Date = 3552438265
 In Projects = "1,"
 Window Top = 92
 Window Left = 36
-Source Window State = "1,496,496,496,4,13,13,0,0,0,0,0,0,0,0,0,472,0,495,5,531,1020,1,0,"
+Window Z-Order = 1
+Source Window State = "1,392,415,415,15,77,77,0,0,163,0,441,0,0,0,38,390,0,397,17,531,1020,1,24,"
+
+[File 0013]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_Adwin.h"
+File Type = "Include"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 137
+Window Left = 59
+Window Z-Order = 49
+Source Window State = "1,140,140,140,30,31,30,0,0,76,0,0,0,0,0,25,124,0,148,72,531,1020,1,0,"
+
+[File 0014]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_ExperimentControl.h"
+File Type = "Include"
+Disk Date = 3553446341
+In Projects = "1,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 13
+Source Window State = "1,635,635,635,9,28,28,0,3,76,0,0,0,0,0,25,623,0,635,9,531,1020,1,0,"
+
+[File 0015]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_DigitalBlocks~cvi151040.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = ""
+Window Top = 182
+Window Left = 82
+Window Z-Order = 48
+Source Window State = "1,4310,4310,4310,30,43,43,0,0,76,0,0,0,0,0,20,37,0,47,12,431,1020,1,0,"
+
+[File 0016]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/Adwin.c"
+File Type = "CSource"
+Disk Date = 3553446336
+In Projects = "1,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 47
+Source Window State = "1,0,1590,0,0,0,0,0,0,76,0,0,0,0,0,25,1057,0,1583,62,531,1020,1,0,"
 
 [File 0017]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_Definitions.c"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DataSocket.c"
 File Type = "CSource"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 92
+Window Left = 36
+Window Z-Order = 46
+Source Window State = "1,20,21,20,133,133,133,0,3,76,0,0,0,0,0,25,22,0,21,133,531,1020,1,0,"
 
 [File 0018]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_Definitions.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 45
+Source Window State = "1,21,22,21,0,0,0,0,0,80,0,0,0,0,0,21,0,0,26,19,451,1068,1,0,"
+
+[File 0019]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DMDIMAGE.c"
 File Type = "CSource"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Window Top = 362
 Window Left = 174
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,531,1020,1,0,"
-
-[File 0019]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DMDSHAPE.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Z-Order = 44
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,0,0,171,27,531,1020,1,0,"
 
 [File 0020]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_Functions.c"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DMDSHAPE.c"
 File Type = "CSource"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 92
+Window Left = 36
+Window Z-Order = 43
+Source Window State = "1,140,140,140,10,44,10,0,0,80,0,0,0,0,0,21,261,0,141,40,451,1068,1,0,"
 
 [File 0021]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_CCD.c"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_Functions.c"
 File Type = "CSource"
-Disk Date = 3556124111
+Disk Date = 3552438265
 In Projects = "1,"
-Window Top = 47
-Window Left = 13
-Source Window State = "1,533,533,533,80,88,88,0,0,0,0,0,0,0,0,0,105,0,117,28,531,1020,1,0,"
+Window Top = 137
+Window Left = 59
+Window Z-Order = 42
+Source Window State = "1,1693,1693,1693,14,15,14,0,0,80,0,0,0,0,0,21,0,0,13,137,451,1068,1,0,"
 
 [File 0022]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Config.c"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_CCD.c"
 File Type = "CSource"
-Disk Date = 3556652420
+Disk Date = 3552438265
 In Projects = "1,"
-Window Top = 137
-Window Left = 59
-Source Window State = "1,500,500,500,48,64,64,0,3,0,0,0,0,0,0,0,488,7,500,48,531,1020,1,0,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 7
+Source Window State = "1,18,31,31,0,16,16,0,0,76,0,0,0,0,0,25,475,0,20,8,531,1020,1,0,"
 
 [File 0023]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_EditPoints.c"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Config.c"
 File Type = "CSource"
-Disk Date = 3555360625
+Disk Date = 3549333613
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 137
+Window Left = 59
+Window Z-Order = 2
+Source Window State = "1,7,7,7,0,20,20,0,0,76,0,0,0,0,0,25,0,0,19,21,531,1020,1,0,"
 
 [File 0024]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_ExtDev.c"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_EditPoints.c"
 File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 452
-Window Left = 220
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,531,1020,1,0,"
-
-[File 0025]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Gpib.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0026]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_IMPORT.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 47
-Window Left = 13
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,531,1020,1,0,"
-
-[File 0027]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_LOOP_CONF.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0028]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Simulate.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 407
-Window Left = 197
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,609,0,609,70,531,1020,1,0,"
-
-[File 0029]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Waveform.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 137
-Window Left = 59
-Source Window State = "1,2914,2914,2914,16,34,34,0,3,0,0,0,0,0,0,0,2894,0,2914,16,531,1020,1,0,"
-
-[File 0030]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_DAQmx.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 407
-Window Left = 197
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,0,0,0,531,1020,1,0,"
-
-[File 0031]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_GPIB.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 227
-Window Left = 105
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1561,0,1572,4,471,1020,1,0,"
-
-[File 0032]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_LoadSave.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0033]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/ExperimentControl.c"
-File Type = "CSource"
-Disk Date = 3556653085
-In Projects = "1,"
-Window Top = 47
-Window Left = 13
-Source Window State = "1,335,335,335,4,17,17,0,0,0,0,0,0,0,0,0,318,0,339,4,531,1020,1,0,"
-
-[File 0034]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/EXTDEV_DRIVER_DDS.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0035]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Agilent.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0036]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Anritsu.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0037]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Berkeley.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0038]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_LeCroy.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0039]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Marconi.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0040]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_RohdeSchwarz.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0041]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_StanfordResearchSystems.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0042]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_ThurlbyThandar.c"
-File Type = "CSource"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0043]
-Path = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessing.c"
-File Type = "CSource"
-Disk Date = 3555360626
-In Projects = "1,3,"
-Window Top = 137
-Window Left = 59
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,380,27,531,1020,1,0,"
-
-[File 0044]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/INTERFACE_TCP_IP.c"
-File Type = "CSource"
-Disk Date = 3556599565
+Disk Date = 3552438265
 In Projects = "1,"
 Window Top = 182
 Window Left = 82
-Source Window State = "1,522,522,522,16,33,33,0,0,0,0,0,0,0,0,0,511,0,522,18,471,1020,1,0,"
+Window Z-Order = 41
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,21,0,0,956,35,451,1068,1,0,"
+
+[File 0025]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_ExtDev.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 452
+Window Left = 220
+Window Z-Order = 40
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,589,0,18,58,531,1020,1,0,"
+
+[File 0026]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Gpib.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 227
+Window Left = 105
+Window Z-Order = 39
+Source Window State = "1,1,2,1,0,0,0,0,0,80,0,0,0,0,0,21,0,0,20,43,451,1068,1,0,"
+
+[File 0027]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_IMPORT.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 38
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,6,0,13,140,531,1020,1,0,"
+
+[File 0028]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_LOOP_CONF.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 37
+Source Window State = "1,0,0,0,10,18,18,0,0,80,0,0,0,0,0,21,0,0,18,102,451,1068,1,0,"
+
+[File 0029]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Simulate.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 407
+Window Left = 197
+Window Z-Order = 36
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,57,0,14,111,531,1020,1,0,"
+
+[File 0030]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Waveform.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 137
+Window Left = 59
+Window Z-Order = 35
+Source Window State = "1,1285,1286,1286,144,143,143,0,3,76,0,0,0,0,0,25,1258,0,1285,144,531,1020,1,0,"
+
+[File 0031]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_DAQmx.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 407
+Window Left = 197
+Window Z-Order = 34
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,22,0,0,0,531,1020,1,0,"
+
+[File 0032]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_GPIB.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 227
+Window Left = 105
+Window Z-Order = 33
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,22,0,0,12,129,471,1020,1,0,"
+
+[File 0033]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/tools.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,2,3,"
+Window Top = 227
+Window Left = 105
+Window Z-Order = 32
+Source Window State = "1,17,17,17,104,105,105,0,0,76,0,0,0,0,0,25,95,0,18,18,531,1020,1,0,"
+
+[File 0034]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_LoadSave.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 10
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,2420,0,0,0,531,1068,1,0,"
+
+[File 0035]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/ExperimentControl.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 9
+Source Window State = "1,54,59,54,12,26,12,0,0,76,0,0,0,0,0,25,121,0,83,36,531,1020,1,0,"
+
+[File 0036]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/EXTDEV_DRIVER_DDS.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 92
+Window Left = 36
+Window Z-Order = 31
+Source Window State = "1,24,25,24,0,0,0,0,0,80,0,0,0,0,0,25,63,0,34,51,531,1068,1,0,"
+
+[File 0037]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Agilent.c"
+File Type = "CSource"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 137
+Window Left = 59
+Window Z-Order = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,175,18,531,1068,1,0,"
+
+[File 0038]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Anritsu.c"
+File Type = "CSource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 182
+Window Left = 82
+Window Z-Order = 29
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,531,1068,1,0,"
+
+[File 0039]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Berkeley.c"
+File Type = "CSource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 227
+Window Left = 105
+Window Z-Order = 28
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,119,13,531,1068,1,0,"
+
+[File 0040]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_LeCroy.c"
+File Type = "CSource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 272
+Window Left = 128
+Window Z-Order = 27
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,531,1068,1,0,"
+
+[File 0041]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_RohdeSchwarz.c"
+File Type = "CSource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 317
+Window Left = 151
+Window Z-Order = 26
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,531,1068,1,0,"
+
+[File 0042]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_StanfordResearchSystems.c"
+File Type = "CSource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 362
+Window Left = 174
+Window Z-Order = 25
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,26,10,531,1068,1,0,"
+
+[File 0043]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_ThurlbyThandar.c"
+File Type = "CSource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 407
+Window Left = 197
+Window Z-Order = 24
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,64,0,0,0,531,1068,1,0,"
+
+[File 0044]
+Path = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessing.c"
+File Type = "CSource"
+Disk Date = 3552438268
+In Projects = "1,3,"
+Window Top = 137
+Window Left = 59
+Window Z-Order = 23
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,1696,0,23,38,531,1020,1,0,"
 
 [File 0045]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/INTERFACE_TCP_IP.c"
+File Type = "CSource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 182
+Window Left = 82
+Window Z-Order = 22
+Source Window State = "1,522,522,522,16,33,33,0,0,76,0,0,0,0,0,22,44,0,668,53,471,1020,1,0,"
+
+[File 0046]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog.c"
+File Type = "CSource"
+Disk Date = 3552438266
+In Projects = "2,"
+Window Top = 182
+Window Left = 82
+Window Z-Order = 21
+Source Window State = "1,543,543,543,10,17,17,0,0,76,0,0,0,0,0,25,663,0,675,4,531,1020,1,0,"
+
+[File 0047]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog_variables.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,2,"
+Window Top = 92
+Window Left = 36
+Window Z-Order = 20
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,0,0,24,44,531,1020,1,0,"
+
+[File 0048]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_common.uir"
+File Type = "User Interface Resource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 92
+Window Left = 36
+Window Height = 531
+Window Width = 1020
+Window Z-Order = 5
+
+[File 0049]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_TCP_IP.uir"
+File Type = "User Interface Resource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 227
+Window Left = 105
+Window Height = 531
+Window Width = 1020
+Window Z-Order = 6
+
+[File 0050]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_CalculateOutput.h"
+File Type = "Include"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 47
+Window Left = 13
+Window Z-Order = 19
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,12,0,0,0,531,1068,1,0,"
+
+[File 0051]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_DigitalBlocks.h"
+File Type = "Include"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 92
+Window Left = 36
+Window Z-Order = 11
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,21,26,531,1068,1,0,"
+
+[File 0052]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_GPIB.h"
+File Type = "Include"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 182
+Window Left = 82
+Window Z-Order = 12
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,0,0,55,29,531,1020,1,0,"
+
+[File 0053]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/ExperimentControl.h"
+File Type = "Include"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 137
+Window Left = 59
+Window Z-Order = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,76,0,0,0,0,0,25,0,0,0,0,531,1020,1,0,"
+
+[File 0054]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Marconi.c"
+File Type = "CSource"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 154
+Window Left = 71
+Window Z-Order = 17
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,531,1068,1,0,"
+
+[File 0055]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Simulate.h"
+File Type = "Include"
+Disk Date = 3552438265
+In Projects = "1,"
+Window Top = 40
+Window Left = 11
+Window Z-Order = 14
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,531,1068,1,0,"
+
+[File 0056]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_RohdeSchwarz.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 116
+Window Left = 51
+Window Z-Order = 16
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,531,1068,1,0,"
+
+[File 0057]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_StanfordResearchSystems.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,"
+Window Top = 78
+Window Left = 31
+Window Z-Order = 15
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,7,35,531,1068,1,0,"
+
+[File 0058]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/UIR_watchdog.uir"
+File Type = "User Interface Resource"
+Disk Date = 3552438266
+In Projects = "2,"
+Window Top = 40
+Window Left = 11
+Window Height = 531
+Window Width = 1188
+Window Z-Order = 3
+
+[File 0059]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/tools.c"
 File Type = "CSource"
-Disk Date = 3548705132
+Disk Date = 3552598209
 In Projects = "1,2,3,"
 Window Top = 352
 Window Left = 816
 Window Released = True
 Source Window State = "1,814,814,814,13,20,20,0,3,0,0,4031,0,0,0,0,812,0,814,13,589,1128,0,0,"
 
-[File 0046]
+[File 0060]
 Path = "/c/Users/Manuel/Desktop/ExpControl/includes/Adwin.h"
 File Type = "Include"
-Disk Date = 3519326318
+Disk Date = 3552438268
 In Projects = "1,"
 Window Top = 92
 Window Left = 36
 Source Window State = "1,30,30,30,3,84,84,0,0,0,0,0,0,0,0,0,7,0,16,16,531,1020,1,0,"
 
-[File 0047]
+[File 0061]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/alp.h"
 File Type = "Include"
 Disk Date = 0
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0048]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_CalculateOutput.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0049]
+[File 0062]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DataSocket.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0050]
+[File 0063]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_Definitions.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0051]
+[File 0064]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DMDIMAGE.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0052]
+[File 0065]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DMDSHAPE.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0053]
+[File 0066]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_Functions.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0054]
+[File 0067]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_CCD.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0055]
+[File 0068]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Config.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Window Top = 137
 Window Left = 59
 Source Window State = "1,44,44,44,18,26,26,0,0,0,0,0,0,0,0,0,33,0,50,34,471,1020,1,0,"
 
-[File 0056]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_DigitalBlocks.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0057]
+[File 0069]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_EditPoints.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0058]
+[File 0070]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_ExtDev.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0059]
+[File 0071]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Gpib.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0060]
+[File 0072]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Import.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0061]
+[File 0073]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_LOOP_CONF.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0062]
+[File 0074]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_MAIN.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Window Top = 137
 Window Left = 59
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,0,0,0,531,1020,1,0,"
 
-[File 0063]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Simulate.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0064]
+[File 0075]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Waveform.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0065]
+[File 0076]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Window Top = 137
 Window Left = 59
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,61,531,1020,1,0,"
 
-[File 0066]
+[File 0077]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_DAQmx.h"
 File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0067]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_GPIB.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 182
-Window Left = 82
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,55,29,531,1020,1,0,"
-
-[File 0068]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_LoadSave.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0069]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/ExperimentControl.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 137
-Window Left = 59
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,531,1020,1,0,"
-
-[File 0070]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/EXTDEV_DRIVER_DDS.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0071]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Agilent.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0072]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Anritsu.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0073]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Berkeley.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0074]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_LeCroy.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0075]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Marconi.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0076]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_RohdeSchwarz.h"
-File Type = "Include"
-Disk Date = 3555360625
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0077]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_StanfordResearchSystems.h"
-File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0078]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_ThurlbyThandar.h"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_LoadSave.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438265
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0079]
-Path = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessing.h"
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/EXTDEV_DRIVER_DDS.h"
 File Type = "Include"
-Disk Date = 3555360626
-In Projects = "1,3,"
+Disk Date = 3552438265
+In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0080]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Agilent.h"
+File Type = "Include"
+Disk Date = 3552438265
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0081]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Anritsu.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0082]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Berkeley.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0083]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_LeCroy.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0084]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Marconi.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0085]
+Path = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_ThurlbyThandar.h"
+File Type = "Include"
+Disk Date = 3552438266
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0086]
+Path = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessing.h"
+File Type = "Include"
+Disk Date = 3552438268
+In Projects = "1,3,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0087]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/INCLUDES_CONTROL.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438266
 In Projects = "1,"
 Window Top = 272
 Window Left = 128
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,15,0,38,63,531,1020,1,14,"
 
-[File 0081]
+[File 0088]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/INTERFACE_TCP_IP.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438266
 In Projects = "1,"
 Window Top = 227
 Window Left = 105
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,63,531,1020,1,0,"
 
-[File 0082]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/tools.h"
-File Type = "Include"
-Disk Date = 3555360626
-In Projects = "1,2,3,"
-Window Top = 227
-Window Left = 105
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,173,0,281,0,531,1020,1,0,"
-
-[File 0083]
+[File 0089]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_common.h"
 File Type = "Include"
-Disk Date = 3550166453
+Disk Date = 3552438266
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0084]
+[File 0090]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_TCP_IP.h"
 File Type = "Include"
-Disk Date = 3555360625
+Disk Date = 3552438266
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0085]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog_variables.h"
-File Type = "Include"
-Disk Date = 3555360626
-In Projects = "1,2,"
-Window Top = 92
-Window Left = 36
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,62,531,1020,1,0,"
-
-[File 0086]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_common.uir"
-File Type = "User Interface Resource"
-Disk Date = 3550166460
-In Projects = "1,"
-Window Top = 92
-Window Left = 36
-Window Height = 531
-Window Width = 1020
-
-[File 0087]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_TCP_IP.uir"
-File Type = "User Interface Resource"
-Disk Date = 3555360625
-In Projects = "1,"
-Window Top = 227
-Window Left = 105
-Window Height = 531
-Window Width = 1020
-
-[File 0088]
-Path = "/c/Users/Manuel/Desktop/ExpControl/NIUSB_AnalogInput.c"
-File Type = "CSource"
-Disk Date = 3555360626
-In Projects = "1,"
-Window Top = 272
-Window Left = 128
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,531,1020,1,0,"
-
-[File 0089]
+[File 0091]
 Path = "/c/Users/Manuel/Desktop/ExpControl/NIUSB_AnalogInput.h"
 File Type = "Include"
-Disk Date = 3555360626
+Disk Date = 3552438266
 In Projects = "1,"
 Window Top = 317
 Window Left = 151
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,531,1020,1,0,"
 
-[File 0090]
+[File 0092]
 Path = "/c/Users/Manuel/Desktop/ExpControl/NIUSB_AnalogInput.mxb"
 File Type = "Unknown"
-Disk Date = 3555360626
-In Projects = "1,"
-
-[File 0091]
-Path = "/c/Users/Manuel/Desktop/ExpControl/lib/CORE_RL_magick_.lib"
-File Type = "Library"
-Disk Date = 3555360628
-In Projects = "1,"
-
-[File 0092]
-Path = "/c/Users/Manuel/Desktop/ExpControl/lib/CORE_RL_wand_.lib"
-File Type = "Library"
-Disk Date = 3555360628
+Disk Date = 3552438266
 In Projects = "1,"
 
 [File 0093]
-Path = "/c/Users/Manuel/Desktop/ExpControl/image_magick.txt"
-File Type = "Unknown"
-Disk Date = 0
-In Projects = "1,"
+Path = "/c/Users/Manuel/Desktop/ExpControl/lib/CORE_RL_magick_.lib"
+File Type = "Library"
+Disk Date = 3552438269
+In Projects = "1,2,"
 
 [File 0094]
+Path = "/c/Users/Manuel/Desktop/ExpControl/lib/CORE_RL_wand_.lib"
+File Type = "Library"
+Disk Date = 3552438269
+In Projects = "1,2,"
+
+[File 0095]
 Path = "/c/Program Files (x86)/Windows Kits/8.1/Lib/winv6.3/um/x86/WS2_32.Lib"
 File Type = "Library"
 Disk Date = 3459982174
 In Projects = "1,"
 
-[File 0095]
+[File 0096]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/UIR_watchdog.h"
 File Type = "Include"
-Disk Date = 3555360626
+Disk Date = 3552438266
 In Projects = "2,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0096]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/UIR_watchdog.uir"
-File Type = "User Interface Resource"
-Disk Date = 3555360626
-In Projects = "2,"
-
 [File 0097]
-Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog.c"
-File Type = "CSource"
-Disk Date = 3555360626
-In Projects = "2,"
-Window Top = 182
-Window Left = 82
-Source Window State = "1,543,543,543,10,17,17,0,0,0,0,0,0,0,0,0,663,0,675,4,531,1020,1,0,"
-
-[File 0098]
 Path = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog.h"
 File Type = "Include"
-Disk Date = 3555360626
+Disk Date = 3552438266
 In Projects = "2,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0098]
+Path = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessingTest.c"
+File Type = "CSource"
+Disk Date = 3552438268
+In Projects = "3,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0099]
-Path = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessingTest.c"
-File Type = "CSource"
-Disk Date = 3555360626
+Path = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessingTest.h"
+File Type = "Include"
+Disk Date = 3552438268
 In Projects = "3,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0100]
-Path = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessingTest.h"
-File Type = "Include"
-Disk Date = 3555360626
-In Projects = "3,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0101]
 Path = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessingTest.uir"
 File Type = "User Interface Resource"
-Disk Date = 3555360626
+Disk Date = 3552438268
 In Projects = "3,"
 
 [Tab Order]
@@ -873,8 +977,52 @@ Tab 0007 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_Adwin.h"
 Tab 0008 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_CalculateOutput.c"
 Tab 0009 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_DigitalBlocks.c"
 Tab 0010 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_DigitalBlocks~cvi151040.c"
-Tab 0011 = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_ExperimentControl.h"
-Tab 0012 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_MAIN.c"
+Tab 0011 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_MAIN.c"
+Tab 0012 = "/c/Users/Manuel/Desktop/ExpControl/Control/Adwin.c"
+Tab 0013 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DataSocket.c"
+Tab 0014 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_Definitions.c"
+Tab 0015 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DMDIMAGE.c"
+Tab 0016 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_DMDSHAPE.c"
+Tab 0017 = "/c/Users/Manuel/Desktop/ExpControl/Control/tools.h"
+Tab 0018 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_Functions.c"
+Tab 0019 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_CCD.c"
+Tab 0020 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Config.c"
+Tab 0021 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_EditPoints.c"
+Tab 0022 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_ExtDev.c"
+Tab 0023 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Gpib.c"
+Tab 0024 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_IMPORT.c"
+Tab 0025 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_LOOP_CONF.c"
+Tab 0026 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Simulate.c"
+Tab 0027 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Waveform.c"
+Tab 0028 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_DAQmx.c"
+Tab 0029 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_GPIB.c"
+Tab 0030 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_LoadSave.c"
+Tab 0031 = "/c/Users/Manuel/Desktop/ExpControl/Control/ExperimentControl.c"
+Tab 0032 = "/c/Users/Manuel/Desktop/ExpControl/Control/EXTDEV_DRIVER_DDS.c"
+Tab 0033 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Agilent.c"
+Tab 0034 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Anritsu.c"
+Tab 0035 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Berkeley.c"
+Tab 0036 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_LeCroy.c"
+Tab 0037 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_RohdeSchwarz.c"
+Tab 0038 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_StanfordResearchSystems.c"
+Tab 0039 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_ThurlbyThandar.c"
+Tab 0040 = "/c/Users/Manuel/Desktop/ExpControl/imageProcessing/imageProcessing.c"
+Tab 0041 = "/c/Users/Manuel/Desktop/ExpControl/Control/INTERFACE_TCP_IP.c"
+Tab 0042 = "/c/Users/Manuel/Desktop/ExpControl/NIUSB_AnalogInput.c"
+Tab 0043 = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog.c"
+Tab 0044 = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/watchdog_variables.h"
+Tab 0045 = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_common.uir"
+Tab 0046 = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_TCP_IP.uir"
+Tab 0047 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_CalculateOutput.h"
+Tab 0048 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_DigitalBlocks.h"
+Tab 0049 = "/c/Users/Manuel/Desktop/ExpControl/Control/ExperimentControl.h"
+Tab 0050 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_HARDWARE_GPIB.h"
+Tab 0051 = "/c/Users/Manuel/Desktop/ExpControl/Control/UIR_ExperimentControl.h"
+Tab 0052 = "/c/Users/Manuel/Desktop/ExpControl/Control/CONTROL_GUI_Simulate.h"
+Tab 0053 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_StanfordResearchSystems.h"
+Tab 0054 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_RohdeSchwarz.h"
+Tab 0055 = "/c/Users/Manuel/Desktop/ExpControl/Control/GPIB_DRIVER_Marconi.c"
+Tab 0056 = "/c/Users/Manuel/Desktop/ExpControl/Watchdog/UIR_watchdog.uir"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

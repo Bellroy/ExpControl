@@ -1578,7 +1578,8 @@ AND:  It must be ensured, that the (UDP) Port 7000 is not blocked by the firewal
 long Get_Dev_ID(long *value)
 {
     short dllLoadError;
-    if ((dllLoadError = (short)LoadDLLIfNeeded())!=0)
+    if ((dllLoadError = (short)
+						LoadDLLIfNeeded())!=0)
         return dllLoadError;
 
 	return (*Get_Dev_ID_Ptr)(DeviceNo, value);
